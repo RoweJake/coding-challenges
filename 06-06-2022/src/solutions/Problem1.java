@@ -36,6 +36,11 @@ public class Problem1 {
 		}
 	}
 	
+	/**
+	 * Prints out the 2nd highest number in an array list of three numbers.
+	 * 
+	 * @param triple
+	 */
 	private static void middleNumber(ArrayList<Integer> triple) {
 		Collections.sort(triple);
 		System.out.println(triple.get(1));
